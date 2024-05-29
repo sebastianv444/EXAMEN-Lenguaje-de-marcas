@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(233, 179, 108);
+}
+
+.botones{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.botones div{
+    padding: 13.4px;
+    background-color: #b9b9b9
+}
+
+.tablon{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tablero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:black
+}

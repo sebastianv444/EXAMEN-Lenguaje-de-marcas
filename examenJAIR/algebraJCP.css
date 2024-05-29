@@ -1,0 +1,21 @@
+body{
+    background-color:aquamarine;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+    
+}
+
+.botones div{
+    padding: 10px;
+    background-color: #b9b9b9
+}
+
+#tabla{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

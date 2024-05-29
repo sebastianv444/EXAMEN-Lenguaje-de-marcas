@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="algebraAMF.css">
+    <title>ExamenAMF</title>
+</head>
+<body>
+    
+    <h1>
+    Elementos algebraicos de Antonio Marín Fernández</h1>
+<div id="datos" class="datos">
+    <label for="numero">Numero</label>
+    <input type="text" id="numero"><br><br>
+    
+    <label for="exponente">Exponente</label>
+    <input type="text" id="exponente"><br><br>
+    
+    <label for="divisor">Divisor</label>
+    <input type="text" id="divisor"><br><br>
+</div>
+
+<div id="operaciones" class="operaciones">    
+    <input type="radio" id="potencia" name="opciones">
+    <label for="potencia">potencia</label>
+    <input type="radio" id="division" name="opciones">
+    <label for="division">division</label>
+    <input type="radio" id="divisible" name="opciones">
+    <label for="divisible">divisible</label><br><br><br>
+</div>
+
+    <div class="botones">
+    <div>
+    <input type="button" value="Calcular" onclick="calculo()">
+    <input type="button" value="BorrarUno" onclick="borrar()">
+    </div>
+    </div><br>
+
+    <table id="tabla" class="tablero" hidden>
+        <tbody>
+            <tr>
+                <td>Resultado</td>
+                <td>operacion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="algebraAMF.js" type="text/javascript"></script>
+</body>
+</html>

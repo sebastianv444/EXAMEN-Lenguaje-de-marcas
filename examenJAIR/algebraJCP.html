@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="algebraJCP.css">
+    <title>Examen</title>
+</head>
+<body>
+    
+    <h1>Elementos algebraicos de Jair Cedeño Parrales</h1>
+    <label for="numero">Numero</label>
+    <input type="text" id="numero"><br><br>
+    <label for="exponente">Exponente</label>
+    <input type="text" id="exponente"><br><br>
+    <label for="divisor">Divisor</label>
+    <input type="text" id="divisor"><br><br>
+
+    <input type="radio" id="potencia" name="seleccion">
+    <label for="potencia">potencia</label>
+    <input type="radio" id="division" name="seleccion">
+    <label for="division">division</label>
+    <input type="radio" id="divisible" name="seleccion">
+    <label for="divisible">divisible</label><br><br><br>
+
+    <div class="botones">
+        <div>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="button" value="BorrarUno" onclick="borrar()">
+        </div>
+    </div><br>
+
+    <table id="tabla" hidden>
+        <tbody>
+            <tr>
+                <td>Resultado</td>
+                <td>operacion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="algebraJCP.js" type="text/javascript"></script>
+</body>
+</html>
